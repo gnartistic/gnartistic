@@ -2,7 +2,6 @@
 
 ## I'm a Husband, Dog Dad, Developer, and Travel Enthusiast!
 
------
 <br/>
 
 - 🧑🏻‍💻  I'm currently working on completing the [UTSA Coding Bootcamp 2022](https://bootcamp.utsa.edu/coding/)!
@@ -15,7 +14,6 @@
 
 ### Languages and Tools:
 
------
 <img align="left" width="32" height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/>
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png">
@@ -36,7 +34,6 @@
 
 ## Connect with me:
 
------
 <br/>
 <a href="https://www.linkedin.com/in/charlie-houston-43220a236/"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" /></a>
 <a href="mailto:gn4rtistic@gmail.com"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/minutemailer.svg"/></a>
@@ -47,7 +44,6 @@
  
 ## Stats:
 
------
 <br/>
 <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=gnartistic&show_icons=true&theme=tokyonight"/>
 
