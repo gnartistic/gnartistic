@@ -3,19 +3,42 @@
 ## I'm a Husband, Dog Dad, Developer, and Travel Enthusiast!
 
 -----
+<br/>
+
 - 🧑🏻‍💻  I'm currently working on completing the [UTSA Coding Bootcamp 2022](https://bootcamp.utsa.edu/coding/)!
-- 🙋🏻‍♂️  I'm currently trying to learn EVERYTHING
+- 🙋🏻‍♂️  I'm currently trying to learn React and Typescript
 - 💻  I'm looking to collaborate with other developers
 - 🏅 2023 Goals: Build and contribute to more projects and applications
 - ⚡️ Fun fact: I love to sculpt clay and play guitar
-
 <br/>
 <br/>
 
-
-### Connect with me:
+### Languages and Tools:
 
 -----
+<br/>
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png">
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png">
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png">
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"/>
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"/>
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"/>
+<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"/>
+<img height="32" width="32" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/ms72l6fnlylfc1ugzbq9"/>
+<img height="32" width="32" src="https://www.nicepng.com/png/detail/223-2233246_heroku-logo-salesforce-heroku.png"/>
+<img height="32" width="32" src="https://seeklogo.com/images/S/sequelize-logo-9A5075DB9F-seeklogo.com.png"/>
+<img height="32" width="32" src="https://wallabyjs.com/assets/img/jest-logo.svg"/>
+<br/>
+<br/>
+
+
+## Connect with me:
+
+-----
+<br/>
 <a href="https://www.linkedin.com/in/charlie-houston-43220a236/"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" /></a>
 <a href="mailto:gn4rtistic@gmail.com"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/minutemailer.svg"/></a>
 <a href="https://my.indeed.com/p/charlieh-cknw9sf"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/indeed.svg"/></a>
@@ -23,9 +46,10 @@
 <br/>
 <br/>
  
-### Stats:
+## Stats:
 
 -----
+<br/>
 <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=gnartistic&show_icons=true&theme=tokyonight"/>
 
 <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnartistic&layout=compact"/>
@@ -35,17 +59,3 @@
 <img align="left" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 
-<!-- <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-<img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/>
-<img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
-<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>
-<img src="https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/>
-<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
-<img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"/>
-<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
-<img src=" -->
