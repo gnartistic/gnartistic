@@ -1,6 +1,6 @@
 # Hey there, I'm Charlie - aka [Gnartistic](https://gnartistic.github.io/charlie-houston/) 👋🏻
 
-## I'm a Husband, Dog Dad, Developer, and Travel Enthusiast!
+### I'm a Husband, Dog Dad, Developer, and Travel Enthusiast!
 
 <br/>
 
