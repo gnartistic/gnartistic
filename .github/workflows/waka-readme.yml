@@ -33,6 +33,6 @@ jobs:
           IGNORED_LANGUAGES: YAML JSON TOML # optional
           ### commit
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
-          TARGET_BRANCH: master # optional
+          TARGET_BRANCH: main # optional
           TARGET_PATH: README.md # optional
           # you can populate email-id with secretes instead
