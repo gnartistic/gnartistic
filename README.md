@@ -1,6 +1,6 @@
 # <img src="https://camo.githubusercontent.com/9ed64b042a76b8a97016e877cbaee0d6df224a148034afef658d841cf0cd1791/68747470733a2f2f63756c746f667468657061727479706172726f742e636f6d2f706172726f74732f68642f6c6170746f705f706172726f742e676966" width="35" height="35"> Hi there, I'm Charles!
 
-Full-Stack MEAN Developer at [OOS Group](https://www.orlandospencer.com/) <img src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" width="30">
+##Full-Stack MEAN Developer at [OOS Group](https://www.orlandospencer.com/) <img src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" width="30">
 
 [![Linkedin: charles](https://img.shields.io/badge/-charlesHouston-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anmol-p-singh/)](https://www.linkedin.com/in/charles-houston-43220a236/)
 ![GitHub followers](https://img.shields.io/github/followers/gnartistic?label=Follow&style=social)
