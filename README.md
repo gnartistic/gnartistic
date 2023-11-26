@@ -1,56 +1,62 @@
-# Hey there, I'm Charlie - aka [Gnartistic](https://gnartistic.github.io/charlie-houston/) 👋🏻
+# <img src="https://camo.githubusercontent.com/9ed64b042a76b8a97016e877cbaee0d6df224a148034afef658d841cf0cd1791/68747470733a2f2f63756c746f667468657061727479706172726f742e636f6d2f706172726f74732f68642f6c6170746f705f706172726f742e676966" width="35" height="35"> Hi there, I'm Charles!
 
-### I'm a Husband, Dog Dad, Developer, and Travel Enthusiast!
+Full-Stack MEAN Developer at [OOS Group](https://www.orlandospencer.com/) <img src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" width="30">
 
-<br/>
+[![Linkedin: charles](https://img.shields.io/badge/-charlesHouston-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anmol-p-singh/)](https://www.linkedin.com/in/charles-houston-43220a236/)
+![GitHub followers](https://img.shields.io/github/followers/gnartistic?label=Follow&style=social)
+[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://anmolsingh.me/)](https://gnartistic.github.io/react-portfolio/)
 
-- 🧑🏻‍💻  I'm currently working on completing the [UTSA Coding Bootcamp 2022](https://bootcamp.utsa.edu/coding/)!
-- 🙋🏻‍♂️  I'm currently trying to learn React and Typescript
-- 💻  I'm looking to collaborate with other developers
-- 🏅 2023 Goals: Build and contribute to more projects and applications
-- ⚡️ Fun fact: I love to sculpt clay and play guitar
-<br/>
-<br/>
+### 📫 Like to meet me?
 
-### Languages and Tools:
+Pick a slot if you'd like to meet me and chat about anything you are passionate about - but make sure to describe the agenda
 
-<img align="left" width="32" height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/>
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png">
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png">
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png">
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"/>
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"/>
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"/>
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"/>
-<img align="left" height="32" width="32" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/ms72l6fnlylfc1ugzbq9"/>
-<img align="left" height="32" width="32" src="https://www.nicepng.com/png/detail/223-2233246_heroku-logo-salesforce-heroku.png"/>
-<img align="left" height="32" width="32" src="https://seeklogo.com/images/S/sequelize-logo-9A5075DB9F-seeklogo.com.png"/>
-<img height="32" width="32" src="https://wallabyjs.com/assets/img/jest-logo.svg"/>
-<br/>
-<br/>
+<a href="https://calendly.com/gn4rtistic/30min" target="_blank"><img width="498" alt="meet_link" src="https://user-images.githubusercontent.com/15426564/144297439-f530f383-e73e-41e0-9914-a9b7d3f432e5.png"></a>
+
+👇 Hit in your console or terminal to connect with me.
+
+```bash
+npx gnartistic
+```
+**👆 This command line tool can be found at [npx gnartistic](https://github.com/gnartistic/cli-contact)**
+
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me... 
+
+```javascript
+const charles = {
+    pronouns: "He" | "Him",
+    code: ["Javascript", "Typescript", "HTML", "CSS", "Java"],
+    askMeAbout: ["web dev", "app dev", "graphic design", "digital art"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Angular"],
+            css: ["bootstrap", "tailwind", "sass"]
+        },
+        backEnd: {
+            js: ["Node", "Express"],
+        },
+        mobileApp: {
+            crossPlatform: ["React Native", "Swift"]
+        },
+        databases: ["MongoDB", "MySQL"],
+        misc: [ "WebSockets", "GraphQL"]
+    },
+    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
+    currentFocus: "Developing accessible and responsive web applications",
+    funFact: "The first computer bug was an actual bug (a moth) found in a computer in 1947"
+};
+```
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be more than happy to chat!</b> 😊</em>
+
+---
+<!--START_SECTION:waka-->
 
 
-## Connect with me:
+![](https://komarev.com/ghpvc/?username=gnartistic&color=green)
 
-<br/>
-<a href="https://www.linkedin.com/in/charlie-houston-43220a236/"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" /></a>
-<a href="mailto:gn4rtistic@gmail.com"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/minutemailer.svg"/></a>
-<a href="https://my.indeed.com/p/charlieh-cknw9sf"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/indeed.svg"/></a>
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.8%20million%20lines%20of%20code-blue)
 
-<br/>
-<br/>
- 
-## Stats:
 
-<br/>
-<img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=gnartistic&show_icons=true&theme=tokyonight"/>
+<!--END_SECTION:waka-->
 
-<img align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnartistic&layout=compact"/>
-
-<!-- <img align="left" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img align="left" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-<img align="left" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> -->
 
