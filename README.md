@@ -5,12 +5,16 @@
 [![Linkedin: charles](https://img.shields.io/badge/-charlesHouston-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anmol-p-singh/)](https://www.linkedin.com/in/charles-houston-43220a236/)
 ![GitHub followers](https://img.shields.io/github/followers/gnartistic?label=Follow&style=social)
 [![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://anmolsingh.me/)](https://gnartistic.github.io/react-portfolio/)
+</br>
+
+---
 
 ### 📫 Like to meet me?
 
 Pick a slot if you'd like to meet me and chat about anything you are passionate about - but make sure to describe the agenda
 
 <a href="https://calendly.com/gn4rtistic/30min" target="_blank"><img width="498" alt="meet_link" src="https://user-images.githubusercontent.com/15426564/144297439-f530f383-e73e-41e0-9914-a9b7d3f432e5.png"></a>
+</br>
 
 👇 Hit in your console or terminal to connect with me.
 
@@ -18,6 +22,9 @@ Pick a slot if you'd like to meet me and chat about anything you are passionate 
 npx gnartistic
 ```
 **👆 This command line tool can be found at [npx gnartistic](https://github.com/gnartistic/cli-contact)**
+
+</br> 
+---
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me... 
 
