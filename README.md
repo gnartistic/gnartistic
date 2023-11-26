@@ -35,7 +35,7 @@ const charles = {
             js: ["Node", "Express"],
         },
         mobileApp: {
-            crossPlatform: ["React Native", "Swift"]
+            crossPlatform: ["React Native"]
         },
         databases: ["MongoDB", "MySQL"],
         misc: [ "WebSockets", "GraphQL"]
