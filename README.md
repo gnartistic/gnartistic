@@ -125,12 +125,6 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ```
 
 
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/gnartistic/gnartistic/main/assets/bar_graph.png)
-
-
  Last Updated on 28/11/2023 05:01:06 UTC
 <!--END_SECTION:waka-->
 
