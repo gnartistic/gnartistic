@@ -65,11 +65,11 @@ const charles = {
 ```txt
 From: 26 November 2023 - To: 27 November 2023
 
-TypeScript   1 hr 13 mins    >>>>>>>------------------   27.58 %
-SCSS         48 mins         >>>>>--------------------   18.20 %
-CSS          38 mins         >>>>---------------------   14.34 %
-YAML         31 mins         >>>----------------------   11.86 %
-HTML         31 mins         >>>----------------------   11.68 %
+TypeScript   1 hr 13 mins    ssssss llllllllllllllllll   27.58 %
+SCSS         48 mins         ssssjllllllllllllllllllll   18.20 %
+CSS          38 mins         sssclllllllllllllllllllll   14.34 %
+YAML         31 mins         ssallllllllllllllllllllll   11.86 %
+HTML         31 mins         sssllllllllllllllllllllll   11.68 %
 ```
 
 <!--END_SECTION:waka-->
