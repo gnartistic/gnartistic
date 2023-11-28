@@ -18,8 +18,8 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true 
-          BLOCKS: ->
+          SHOW_TITLE: true
+          BLOCKS: 'languages, editors, os, projects, categories, stats'
           TIME_RANGE: all_time
           SHOW_LINES_OF_CODE: true
           SHOW_DAYS_OF_WEEK: true
