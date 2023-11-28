@@ -16,7 +16,7 @@ Pick a slot if you'd like to meet me and chat about anything you are passionate 
 <a href="https://calendly.com/gn4rtistic/30min" target="_blank"><img width="498" alt="meet_link" src="https://user-images.githubusercontent.com/15426564/144297439-f530f383-e73e-41e0-9914-a9b7d3f432e5.png"></a>
 </br>
 
-👇 Hit in your console or terminal to connect with me.
+👇 copy and paste in your terminal to connect with me.
 
 ```bash
 npx gnartistic
@@ -54,11 +54,7 @@ const charles = {
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be more than happy to chat!</b> 😊</em>
 
-
-![](https://komarev.com/ghpvc/?username=gnartistic&color=green)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.8%20million%20lines%20of%20code-blue)
-
+### My Stats
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-7%20hrs%201%20min-blue)
