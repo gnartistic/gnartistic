@@ -61,18 +61,8 @@ const charles = {
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-202-blue)
 
-**🐱 My GitHub Data** 
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.0%20million%20lines%20of%20code-blue)
 
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 73 Contributions in the Year 2023
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 41 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
 **I'm an Early 🐤** 
 
 ```text
@@ -126,12 +116,8 @@ TypeScript               1 repo              █░░░░░░░░░░�
 
 
 
-**Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/gnartistic/gnartistic/main/assets/bar_graph.png)
-
-
- Last Updated on 28/11/2023 05:19:52 UTC
+ Last Updated on 28/11/2023 05:21:45 UTC
 <!--END_SECTION:waka-->
 
 
