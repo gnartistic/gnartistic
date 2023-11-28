@@ -1,26 +1,27 @@
 name: Waka Readme
 
 on:
-  push:
+  push:  # This will trigger the workflow on every push to the repository
     branches:
-      - main
-  workflow_dispatch:
-  schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
-    - cron: '0 0 * * *'
+      - main  # Assuming you want it to run on commits to the 'main' branch
+  workflow_dispatch:  # This allows for manual triggering of the workflow
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          BLOCKS: 'languages, editors, os, projects, categories, stats'
-          TIME_RANGE: all_time
-          SHOW_LINES_OF_CODE: true
-          SHOW_DAYS_OF_WEEK: true
-          SHOW_COMMIT: true
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Customization Flags
+          SHOW_OS: "False"  # To hide OS details
+          SHOW_PROJECTS: "True"  # To hide project details
+          SHOW_LANGUAGE: "True"  # To show coding languages used
+          SHOW_EDITORS: "False"  # To show code editors used
+          SHOW_LINES_OF_CODE: "True"  # To show lines of code written
+          SHOW_COMMIT: "True"  # To show commit stats
+          SHOW_DAYS_OF_WEEK: "True"  # To show commits on different days of the week
+          COMMIT_MESSAGE: "Updated with Dev Metrics"  # Custom commit message
+          # Add more flags as needed
