@@ -57,7 +57,7 @@ const charles = {
 ### My Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%20hrs%2027%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-7%20hrs%203%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-255-blue)
 
@@ -117,7 +117,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 28/11/2023 06:04:48 UTC
+ Last Updated on 28/11/2023 06:06:25 UTC
 <!--END_SECTION:waka-->
 
 
