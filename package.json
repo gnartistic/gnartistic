@@ -1,0 +1,9 @@
+{
+  "name": "gnartistic-widgets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom SVG widgets for the gnartistic GitHub profile",
+  "dependencies": {
+    "@octokit/rest": "^21.0.0"
+  }
+}

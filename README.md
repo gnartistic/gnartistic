@@ -1,116 +1,186 @@
-#  Hi there, I'm Charles!
+<div align="center">
 
-## Full-Stack MEAN Developer at [OOS Group](https://www.orlandospencer.com/) <img src="https://camo.githubusercontent.com/63371d36886ee658f5a97401f393e1ab1684b2fd3de674b8f5efc7d410b2a3d0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57556c706c634d704f43456d5447427442572f67697068792e676966" width="30">
+# 👋 Hey, I'm Charles
 
-[![Linkedin: charles](https://img.shields.io/badge/-charlesHouston-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anmol-p-singh/)](https://www.linkedin.com/in/charles-houston-43220a236/)
-![GitHub followers](https://img.shields.io/github/followers/gnartistic?label=Follow&style=social)
-[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://anmolsingh.me/)](https://gnartistic.github.io/react-portfolio/)
-</br>
+### Full-Stack Developer · Designer · Digital Artist
+
+[![Linkedin](https://img.shields.io/badge/-Charles_Houston-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charles-houston-43220a236/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://gnartistic.github.io/react-portfolio/)
+[![Calendly](https://img.shields.io/badge/Book_a_chat-006BFF?style=for-the-badge&logo=calendly&logoColor=white)](https://calendly.com/gn4rtistic/30min)
+![Followers](https://img.shields.io/github/followers/gnartistic?label=Follow&style=for-the-badge&color=blueviolet)
+
+</div>
+
+<br/>
 
 ---
 
-### 📫 Like to meet me?
+<br/>
 
-Pick a slot if you'd like to meet me and chat about anything you are passionate about - but make sure to describe the agenda
+### 🚀 About Me
 
-<a href="https://calendly.com/gn4rtistic/30min" target="_blank"><img width="498" alt="meet_link" src="https://user-images.githubusercontent.com/15426564/144297439-f530f383-e73e-41e0-9914-a9b7d3f432e5.png"></a>
-</br>
+```ts
+const charles = {
+  pronouns:     "he/him",
+  role:         "CTO @ Shenhav",
+  stack:        ["TypeScript", "Next.js", "React", "tRPC", "Prisma", "PostgreSQL", "Chakra", "Tailwind"],
+  offTheClock:  ["hiking with no elevation gain", "jamming in basements with my friends", "creating things with my hands", "riding the rails at a music festival"],
+  currentFocus: "Building with AI — agents, LLM tooling, and human-in-the-loop systems",
+  funFact:      "I'm fully ambidextrous ✍️",
+};
+```
 
-👇 copy and paste in your terminal to connect with me.
+> 💬 Always down to chat about web dev, design, or art — drop a line anytime.
+
+<br/>
+
+---
+
+<br/>
+
+### 🛠 Tech I Reach For
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/nextdotjs/000000/ffffff" width="20" align="center"/>&nbsp; Framework / Core</h4>
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![T3 Stack](https://img.shields.io/badge/T3_Stack-E8B339?style=for-the-badge&logo=tsnode&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/trpc/2596BE" width="20" align="center"/>&nbsp; API Layer</h4>
+
+![tRPC](https://img.shields.io/badge/tRPC_10-2596BE?style=for-the-badge&logo=trpc&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query_v4-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+![superjson](https://img.shields.io/badge/superjson-1E1E1E?style=for-the-badge)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/postgresql/4169E1" width="20" align="center"/>&nbsp; Database</h4>
+
+![Prisma](https://img.shields.io/badge/Prisma_5-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/auth0/EB5424" width="20" align="center"/>&nbsp; Auth</h4>
+
+![NextAuth.js](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Auth0](https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcryptjs-525252?style=for-the-badge)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" width="20" align="center"/>&nbsp; UI</h4>
+
+![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakraui&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![React Icons](https://img.shields.io/badge/react--icons-E91E63?style=for-the-badge)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/reactquery/FF4154" width="20" align="center"/>&nbsp; State</h4>
+
+![Jotai](https://img.shields.io/badge/Jotai-000000?style=for-the-badge&logo=jotai&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/stripe/635BFF" width="20" align="center"/>&nbsp; Payments</h4>
+
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Stripe Connect](https://img.shields.io/badge/Stripe_Connect-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Square](https://img.shields.io/badge/Square-3E4348?style=for-the-badge&logo=square&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/maildotru/005FF9" width="20" align="center"/>&nbsp; Email</h4>
+
+![AWS SES](https://img.shields.io/badge/AWS_SES-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![SendGrid](https://img.shields.io/badge/SendGrid-1A82E2?style=for-the-badge&logo=sendgrid&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-22B573?style=for-the-badge&logo=minutemailer&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/amazonwebservices/FF9900" width="20" align="center"/>&nbsp; Infra</h4>
+
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Upstash](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=for-the-badge&logo=upstash&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/pusher/300D4F" width="20" align="center"/>&nbsp; Realtime</h4>
+
+![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=for-the-badge&logo=pusher&logoColor=white)
+![Ably](https://img.shields.io/badge/Ably-FF5416?style=for-the-badge&logo=ably&logoColor=white)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/figma/F24E1E" width="20" align="center"/>&nbsp; Canvas / Design Tools</h4>
+
+![Fabric.js](https://img.shields.io/badge/Fabric.js-FFB13B?style=for-the-badge)
+![Konva](https://img.shields.io/badge/Konva-0D83CD?style=for-the-badge)
+![sharp](https://img.shields.io/badge/sharp-99CC00?style=for-the-badge)
+![jsPDF](https://img.shields.io/badge/jsPDF-E53935?style=for-the-badge)
+![pdf-lib](https://img.shields.io/badge/pdf--lib-B71C1C?style=for-the-badge)
+![html2canvas](https://img.shields.io/badge/html2canvas-1976D2?style=for-the-badge)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/chartdotjs/FF6384" width="20" align="center"/>&nbsp; Data Viz</h4>
+
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge)
+![TanStack Table](https://img.shields.io/badge/TanStack_Table-FF4154?style=for-the-badge)
+
+<br/>
+
+<h4><img src="https://cdn.simpleicons.org/anthropic/D97757" width="20" align="center"/>&nbsp; AI</h4>
+
+![Anthropic](https://img.shields.io/badge/Anthropic_SDK-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+<br/>
+
+---
+
+<br/>
+
+### 📫 Let's Connect
+
+Pop open your terminal and run:
 
 ```bash
 npx gnartistic
 ```
-**👆 This command line tool can be found at [npx gnartistic](https://github.com/gnartistic/cli-contact)**
 
-</br> </br>
+> 👆 Source: [gnartistic/cli-contact](https://github.com/gnartistic/cli-contact)
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me... 
+Or grab a slot on [Calendly](https://calendly.com/gn4rtistic/30min) — just include an agenda so we can make it count.
 
-```javascript
-const charles = {
-    pronouns: "He" | "Him",
-    code: ["Javascript", "Typescript", "HTML", "CSS", "Java"],
-    askMeAbout: ["web dev", "app dev", "graphic design", "digital art"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Angular"],
-            css: ["bootstrap", "tailwind", "sass"]
-        },
-        backEnd: {
-            js: ["Node", "Express"],
-        },
-        mobileApp: {
-            crossPlatform: ["React Native"]
-        },
-        databases: ["MongoDB", "MySQL"],
-        misc: [ "WebSockets", "GraphQL"]
-    },
-    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
-    currentFocus: "Developing accessible and responsive web applications",
-    funFact: "The first computer bug was an actual bug (a moth) found in a computer in 1947"
-};
-```
+<br/>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be more than happy to chat!</b> 😊</em>
+---
 
-### My Stats
+<br/>
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
+![Latest commit](https://gnartistic.vercel.app/api/widgets/latest)
+![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
+![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
+
+</div>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-59%20hrs%2028%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-95.5%20thousand%20lines%20of%20code-blue)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                11 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.10 % 
-🌆 Daytime                26 commits          ████████░░░░░░░░░░░░░░░░░   30.95 % 
-🌃 Evening                44 commits          █████████████░░░░░░░░░░░░   52.38 % 
-🌙 Night                  3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   11 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.10 % 
-Tuesday                  14 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
-Wednesday                12 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
-Thursday                 16 commits          █████░░░░░░░░░░░░░░░░░░░░   19.05 % 
-Friday                   11 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.10 % 
-Saturday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.95 % 
-Sunday                   15 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.86 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: America/Chicago
-
-💬 Programming Languages: 
-SCSS                     3 hrs 38 mins       ██████████████░░░░░░░░░░░   54.75 % 
-JavaScript               3 hrs               ███████████░░░░░░░░░░░░░░   45.25 % 
-
-🐱‍💻 Projects: 
-react-portfolio          6 hrs 39 mins       █████████████████████████   100.00 % 
-```
-
-**I Mostly Code in JavaScript** 
-
-```text
-JavaScript               28 repos            ████████████████░░░░░░░░░   63.64 % 
-TypeScript               2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-SCSS                     2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-Swift                    1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
-Shell                    1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
-```
-
-
-
-
- Last Updated on 21/03/2024 22:30:12 UTC
 <!--END_SECTION:waka-->
-
-

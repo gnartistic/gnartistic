@@ -1,0 +1,11 @@
+{
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Content-Type", "value": "image/svg+xml" },
+        { "key": "Cache-Control", "value": "public, max-age=1800, s-maxage=1800" }
+      ]
+    }
+  ]
+}
