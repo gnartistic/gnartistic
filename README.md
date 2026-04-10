@@ -15,7 +15,7 @@
 </div>
 
 <!-- WAVE DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,20&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,14&height=2" width="100%"/>
 
 <br/>
 
@@ -31,7 +31,7 @@
 <br/>
 
 <!-- WAVE DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,20&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,14&height=2" width="100%"/>
 
 <br/>
 
@@ -107,7 +107,7 @@
 </details>
 
 <!-- WAVE DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,20&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,14&height=2" width="100%"/>
 
 <br/>
 
@@ -134,7 +134,7 @@
 <br/>
 
 <!-- WAVE DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,20&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,14&height=2" width="100%"/>
 
 <br/>
 
@@ -157,11 +157,11 @@ npx gnartistic
 <br/>
 
 <!-- WAVE DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,20&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,12,14&height=2" width="100%"/>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,14&height=100&section=footer" width="100%"/>
 
 </div>
 
