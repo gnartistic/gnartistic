@@ -142,7 +142,15 @@
 
 <div align="center">
 
-<img src="https://gnartistic.vercel.app/api/widgets/connect" width="100%"/>
+### Try it in your terminal
+
+```bash
+npx gnartistic
+```
+
+<a href="https://github.com/gnartistic/cli-contact">
+  <img src="https://img.shields.io/badge/Source-cli--contact-7AA2F7?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </div>
 
