@@ -166,12 +166,12 @@
 
 <div align="center">
 
-![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
-![Latest commit](https://gnartistic.vercel.app/api/widgets/latest)
+<img src="https://gnartistic.vercel.app/api/widgets/lines" width="100%"/>
+<img src="https://gnartistic.vercel.app/api/widgets/latest" width="100%"/>
 
 <br/>
 
-![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
+<img src="https://gnartistic.vercel.app/api/widgets/languages" width="100%"/>
 ![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
 
 <br/>
