@@ -28,6 +28,10 @@ jobs:
           git add data/lines.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update lines.json"
-            git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main && git push && break
+              echo "push attempt $i failed, retrying..."
+              sleep 3
+            done
           fi
