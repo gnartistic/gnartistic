@@ -142,15 +142,7 @@
 
 <div align="center">
 
-Pop open your terminal and run:
-
-```bash
-npx gnartistic
-```
-
-> Source: [gnartistic/cli-contact](https://github.com/gnartistic/cli-contact)
-
-Or grab a slot on [Calendly](https://calendly.com/gn4rtistic/30min) — just include an agenda so we can make it count.
+<img src="https://gnartistic.vercel.app/api/widgets/connect" width="100%"/>
 
 </div>
 
