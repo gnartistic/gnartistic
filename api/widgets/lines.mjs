@@ -27,16 +27,20 @@ export default async function handler(req, res) {
     const repos = all
       .filter((r) => !r.fork)
       .sort((a, b) => (b.size || 0) - (a.size || 0))
-      .slice(0, 25);
+      .slice(0, 15);
 
     let additions = 0;
     let deletions = 0;
     let countedRepos = 0;
 
-    // Run sequentially to be gentle on the stats endpoint.
-    for (const repo of repos) {
-      if (repo.fork) continue; // skip forks so you don't double-count
-      const stats = await getContributorStats(octokit, repo.owner.login, repo.name);
+    // Fetch contributor stats in parallel.
+    const results = await Promise.all(
+      repos.map((repo) =>
+        getContributorStats(octokit, repo.owner.login, repo.name).catch(() => [])
+      )
+    );
+
+    for (const stats of results) {
       const mine = stats.find((s) => s?.author?.login === USERNAME);
       if (mine) {
         for (const week of mine.weeks) {
