@@ -133,8 +133,6 @@
 
 <br/>
 
-### <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"/> Let's Connect
-
 <div align="center">
 
 ### Try it in your terminal
