@@ -14,17 +14,19 @@ export default async function handler(req, res) {
     const fmt = (n) => Number(n).toLocaleString("en-US");
 
     const svg = `
-<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="${theme.bg1}"/>
       <stop offset="100%" stop-color="${theme.bg2}"/>
     </linearGradient>
   </defs>
-  <rect width="400" height="200" rx="12" fill="url(#bg)"/>
-  <text x="200" y="38" font-family="-apple-system, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="${theme.accent}" text-anchor="middle">LINES OF CODE</text>
-  <text x="200" y="105" font-family="-apple-system, Segoe UI, sans-serif" font-size="56" font-weight="800" fill="${theme.green}" text-anchor="middle">${fmt(additions)}</text>
-  <text x="200" y="145" font-family="-apple-system, Segoe UI, sans-serif" font-size="16" fill="${theme.muted}" text-anchor="middle">${fmt(deletions)} deleted · ${countedRepos} repos</text>
+  <rect width="400" height="400" rx="12" fill="url(#bg)"/>
+  <text x="200" y="80" font-family="-apple-system, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="${theme.accent}" text-anchor="middle">LINES OF CODE</text>
+  <text x="200" y="210" font-family="-apple-system, Segoe UI, sans-serif" font-size="72" font-weight="800" fill="${theme.green}" text-anchor="middle">${fmt(additions)}</text>
+  <text x="200" y="260" font-family="-apple-system, Segoe UI, sans-serif" font-size="20" fill="${theme.text}" text-anchor="middle">lines added</text>
+  <text x="200" y="310" font-family="-apple-system, Segoe UI, sans-serif" font-size="18" fill="${theme.muted}" text-anchor="middle">${fmt(deletions)} deleted · net ${fmt(net)}</text>
+  <text x="200" y="345" font-family="-apple-system, Segoe UI, sans-serif" font-size="18" fill="${theme.subtext}" text-anchor="middle">${countedRepos} repositories</text>
 </svg>`.trim();
 
     sendSvg(res, svg, { maxAge: 3600 });

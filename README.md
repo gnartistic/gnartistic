@@ -23,7 +23,7 @@
 
 <div align="center">
 
-<img src="https://gnartistic.vercel.app/api/widgets/terminal?v=3" width="100%"/>
+<img src="https://gnartistic.vercel.app/api/widgets/terminal?v=4" width="100%"/>
 
 
 </div>
@@ -116,11 +116,11 @@
 <div align="center">
 <table>
 <tr>
-<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/lines?v=3"/></td>
+<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/lines?v=4"/></td>
 <td align="center"><img src="https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true"/></td>
 </tr>
 <tr>
-<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/languages?v=3"/></td>
+<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/languages?v=4"/></td>
 <td align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true"/></td>
 </tr>
 </table>
