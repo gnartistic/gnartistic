@@ -1,44 +1,56 @@
 <div align="center">
 
-# 👋 Hey, I'm Charles
+<!-- ANIMATED TYPING HEADER -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=BB9AF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Hey%2C+I'm+Charles+%F0%9F%91%8B;CTO+%40+Shenhav+%7C+Builder+%7C+Artist" alt="Typing SVG" /></a>
 
-### Full-Stack Developer · Designer · Digital Artist
+<!-- SOCIAL BADGES -->
+<br/>
 
 [![Linkedin](https://img.shields.io/badge/-Charles_Houston-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charles-houston-43220a236/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://gnartistic.github.io/react-portfolio/)
 [![Calendly](https://img.shields.io/badge/Book_a_chat-006BFF?style=for-the-badge&logo=calendly&logoColor=white)](https://calendly.com/gn4rtistic/30min)
 ![Followers](https://img.shields.io/github/followers/gnartistic?label=Follow&style=for-the-badge&color=blueviolet)
+![Profile Views](https://komarev.com/ghpvc/?username=gnartistic&style=for-the-badge&color=bb9af7)
 
 </div>
 
+<!-- WAVE DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
 <br/>
 
----
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"/> About Me
 
-<br/>
-
-### 🚀 About Me
+<img align="right" src="https://gnartistic.vercel.app/api/widgets/terminal" width="320"/>
 
 ```ts
 const charles = {
   pronouns:     "he/him",
   role:         "CTO @ Shenhav",
-  stack:        ["TypeScript", "Next.js", "React", "tRPC", "Prisma", "PostgreSQL", "Chakra", "Tailwind"],
-  offTheClock:  ["hiking with no elevation gain", "jamming in basements with my friends", "creating things with my hands", "riding the rails at a music festival"],
-  currentFocus: "Building with AI — agents, LLM tooling, and human-in-the-loop systems",
+  stack:        ["TypeScript", "Next.js", "React", "tRPC",
+                 "Prisma", "PostgreSQL", "Chakra", "Tailwind"],
+  offTheClock:  ["hiking with no elevation gain",
+                 "jamming in basements with my friends",
+                 "creating things with my hands",
+                 "riding the rails at a music festival"],
+  currentFocus: "Building with AI — agents, LLM tooling,
+                 and human-in-the-loop systems",
   funFact:      "I'm fully ambidextrous ✍️",
 };
 ```
 
-> 💬 Always down to chat about web dev, design, or art — drop a line anytime.
+<br clear="both"/>
+
+> *"Always down to chat about web dev, design, or art — drop a line anytime."*
 
 <br/>
 
----
+<!-- WAVE DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <br/>
 
-### 🛠 Tech I Reach For
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"/> Tech I Reach For
 
 <br/>
 
@@ -149,11 +161,59 @@ const charles = {
 
 <br/>
 
----
+<!-- WAVE DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <br/>
 
-### 📫 Let's Connect
+## <img src="https://media.giphy.com/media/iY8CRBdQFODhk/giphy.gif" width="28"/> GitHub Trophies
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=gnartistic&theme=tokyonight&no-frame=true&no-bg=true&column=7)
+
+</div>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="28"/> GitHub Stats
+
+<div align="center">
+
+![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
+![Latest commit](https://gnartistic.vercel.app/api/widgets/latest)
+
+<br/>
+
+![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
+![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
+
+<br/>
+
+<!-- ACTIVITY GRAPH -->
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true)
+
+</div>
+
+<br/>
+
+<!-- SNAKE CONTRIBUTION -->
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/gnartistic/gnartistic/output/github-snake-dark.svg)
+
+</div>
+
+<br/>
+
+<!-- WAVE DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"/> Let's Connect
+
+<div align="center">
 
 Pop open your terminal and run:
 
@@ -161,24 +221,20 @@ Pop open your terminal and run:
 npx gnartistic
 ```
 
-> 👆 Source: [gnartistic/cli-contact](https://github.com/gnartistic/cli-contact)
+> Source: [gnartistic/cli-contact](https://github.com/gnartistic/cli-contact)
 
 Or grab a slot on [Calendly](https://calendly.com/gn4rtistic/30min) — just include an agenda so we can make it count.
 
-<br/>
-
----
+</div>
 
 <br/>
 
-### 📊 GitHub Stats
+<!-- WAVE DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <div align="center">
 
-![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
-![Latest commit](https://gnartistic.vercel.app/api/widgets/latest)
-![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
-![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 </div>
 
