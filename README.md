@@ -21,27 +21,13 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"/> About Me
 
-<img align="right" src="https://gnartistic.vercel.app/api/widgets/terminal" width="320"/>
+<div align="center">
 
-```ts
-const charles = {
-  pronouns:     "he/him",
-  role:         "CTO @ Shenhav",
-  stack:        ["TypeScript", "Next.js", "React", "tRPC",
-                 "Prisma", "PostgreSQL", "Chakra", "Tailwind"],
-  offTheClock:  ["hiking with no elevation gain",
-                 "jamming in basements with my friends",
-                 "creating things with my hands",
-                 "riding the rails at a music festival"],
-  currentFocus: "Building with AI — agents, LLM tooling,
-                 and human-in-the-loop systems",
-  funFact:      "I'm fully ambidextrous ✍️",
-};
-```
-
-<br clear="both"/>
+![Terminal](https://gnartistic.vercel.app/api/widgets/terminal)
 
 > *"Always down to chat about web dev, design, or art — drop a line anytime."*
+
+</div>
 
 <br/>
 
