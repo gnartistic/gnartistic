@@ -23,7 +23,7 @@
 
 <div align="center">
 
-![Terminal](https://gnartistic.vercel.app/api/widgets/terminal)
+<img src="https://gnartistic.vercel.app/api/widgets/terminal" width="100%"/>
 
 > *"Always down to chat about web dev, design, or art — drop a line anytime."*
 
