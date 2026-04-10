@@ -53,16 +53,16 @@ export default async function handler(req, res) {
       const y = 70 + i * 28;
       const color = COLORS[lang] || theme.subtext;
       bars += `
-        <text x="24" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="${theme.text}">${escape(lang)}</text>
-        <text x="760" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" fill="${theme.muted}" text-anchor="end">${pct.toFixed(1)}%</text>
-        <rect x="24" y="${y + 6}" width="736" height="6" rx="3" fill="${theme.bg1}"/>
-        <rect x="24" y="${y + 6}" width="${(pct / 100) * 736}" height="6" rx="3" fill="${color}"/>
+        <text x="24" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="${theme.text}">${escape(lang)}</text>
+        <text x="376" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" fill="${theme.muted}" text-anchor="end">${pct.toFixed(1)}%</text>
+        <rect x="24" y="${y + 8}" width="352" height="8" rx="4" fill="${theme.bg1}"/>
+        <rect x="24" y="${y + 8}" width="${(pct / 100) * 352}" height="8" rx="4" fill="${color}"/>
       `;
     });
 
     const svg = card({
-      width: 800,
-      height: 70 + sorted.length * 28 + 16,
+      width: 400,
+      height: 400,
       title: "💬 Top languages",
       body: bars,
     });

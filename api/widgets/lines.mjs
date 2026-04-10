@@ -17,10 +17,11 @@ export default async function handler(req, res) {
     const fmt = (n) => Number(n).toLocaleString("en-US");
 
     const body = `
-      <text x="24" y="80" font-family="-apple-system, Segoe UI, sans-serif" font-size="32" font-weight="800" fill="${theme.green}">${fmt(additions)}</text>
-      <text x="24" y="100" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" fill="${theme.muted}">lines added (${fmt(deletions)} deleted · net ${fmt(net)})</text>
-      <text x="24" y="130" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" fill="${theme.subtext}">across ${countedRepos} repositories</text>
-      <text x="24" y="148" font-family="-apple-system, Segoe UI, sans-serif" font-size="9" fill="${theme.muted}">updated ${new Date(updatedAt).toUTCString()}</text>
+      <text x="200" y="160" font-family="-apple-system, Segoe UI, sans-serif" font-size="48" font-weight="800" fill="${theme.green}" text-anchor="middle">${fmt(additions)}</text>
+      <text x="200" y="190" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" fill="${theme.text}" text-anchor="middle">lines added</text>
+      <text x="200" y="240" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" fill="${theme.muted}" text-anchor="middle">${fmt(deletions)} deleted · net ${fmt(net)}</text>
+      <text x="200" y="270" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" fill="${theme.subtext}" text-anchor="middle">across ${countedRepos} repositories</text>
+      <text x="200" y="370" font-family="-apple-system, Segoe UI, sans-serif" font-size="10" fill="${theme.muted}" text-anchor="middle">updated ${new Date(updatedAt).toUTCString()}</text>
     `;
 
     const svg = card({ title: "📈 Lines of code written", body });

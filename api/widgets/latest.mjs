@@ -22,9 +22,9 @@ export default async function handler(req, res) {
     const when = timeAgo(new Date(push.created_at));
 
     const body = `
-      <text x="24" y="78" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" font-weight="600" fill="${theme.text}">${escape(repo)}</text>
-      <text x="24" y="100" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="${theme.subtext}">"${escape(message)}"</text>
-      <text x="24" y="130" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" fill="${theme.muted}">${when}</text>
+      <text x="200" y="160" font-family="-apple-system, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="${theme.text}" text-anchor="middle">${escape(repo)}</text>
+      <text x="200" y="200" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="${theme.subtext}" text-anchor="middle">"${escape(message)}"</text>
+      <text x="200" y="250" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" fill="${theme.muted}" text-anchor="middle">${when}</text>
     `;
 
     const svg = card({ title: "🚀 Latest commit", body });
