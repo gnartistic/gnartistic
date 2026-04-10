@@ -21,10 +21,16 @@ const COLORS = {
 export default async function handler(req, res) {
   try {
     const octokit = client();
-    const repos = await octokit.paginate(octokit.repos.listForUser, {
-      username: USERNAME,
+    // Authenticated listing includes private repos when the PAT has repo scope.
+    const repos = await octokit.paginate(octokit.repos.listForAuthenticatedUser, {
       per_page: 100,
-    });
+      affiliation: "owner,collaborator,organization_member",
+    }).catch(() =>
+      octokit.paginate(octokit.repos.listForUser, {
+        username: USERNAME,
+        per_page: 100,
+      })
+    );
 
     const totals = {};
     for (const repo of repos) {
