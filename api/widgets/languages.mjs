@@ -1,7 +1,7 @@
 // Top languages widget — aggregates byte counts across all your repos.
 
-import { client } from "../_lib/github.js";
-import { card, sendSvg, sendError, theme, escape } from "../_lib/card.js";
+import { client } from "../_lib/github.mjs";
+import { card, sendSvg, sendError, theme, escape } from "../_lib/card.mjs";
 
 const USERNAME = "gnartistic";
 

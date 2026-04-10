@@ -1,7 +1,7 @@
 // Latest commit widget — shows the most recent public push by the user.
 
-import { client } from "../_lib/github.js";
-import { card, sendSvg, sendError, theme, escape } from "../_lib/card.js";
+import { client } from "../_lib/github.mjs";
+import { card, sendSvg, sendError, theme, escape } from "../_lib/card.mjs";
 
 const USERNAME = "gnartistic";
 

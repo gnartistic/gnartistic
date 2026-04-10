@@ -2,8 +2,8 @@
 // Sums `additions` across every commit you authored in every repo you own.
 // Cached at the edge for 6h since this is heavy.
 
-import { client, getContributorStats } from "../_lib/github.js";
-import { card, sendSvg, sendError, theme } from "../_lib/card.js";
+import { client, getContributorStats } from "../_lib/github.mjs";
+import { card, sendSvg, sendError, theme } from "../_lib/card.mjs";
 
 const USERNAME = "gnartistic";
 
