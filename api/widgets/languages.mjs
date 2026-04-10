@@ -54,14 +54,14 @@ export default async function handler(req, res) {
       const color = COLORS[lang] || theme.subtext;
       bars += `
         <text x="24" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="${theme.text}">${escape(lang)}</text>
-        <text x="460" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" fill="${theme.muted}" text-anchor="end">${pct.toFixed(1)}%</text>
-        <rect x="24" y="${y + 6}" width="436" height="6" rx="3" fill="${theme.bg1}"/>
-        <rect x="24" y="${y + 6}" width="${(pct / 100) * 436}" height="6" rx="3" fill="${color}"/>
+        <text x="760" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="11" fill="${theme.muted}" text-anchor="end">${pct.toFixed(1)}%</text>
+        <rect x="24" y="${y + 6}" width="736" height="6" rx="3" fill="${theme.bg1}"/>
+        <rect x="24" y="${y + 6}" width="${(pct / 100) * 736}" height="6" rx="3" fill="${color}"/>
       `;
     });
 
     const svg = card({
-      width: 500,
+      width: 800,
       height: 70 + sorted.length * 28 + 16,
       title: "💬 Top languages",
       body: bars,
