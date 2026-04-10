@@ -23,7 +23,7 @@
 
 <div align="center">
 
-<img src="https://gnartistic.vercel.app/api/widgets/terminal" width="100%"/>
+<img src="https://gnartistic.vercel.app/api/widgets/terminal?v=3" width="100%"/>
 
 
 </div>
