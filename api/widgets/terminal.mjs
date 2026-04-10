@@ -25,19 +25,19 @@ export default function handler(req, res) {
     @keyframes out11 { 0%, 70% { opacity: 0 } 72%, 100% { opacity: 1 } }
     @keyframes prompt2 { 0%, 76% { opacity: 0 } 78%, 100% { opacity: 1 } }
     .cursor { animation: blink 1s step-end infinite; }
-    .cmd { overflow: hidden; white-space: nowrap; display: inline-block; animation: cmd 12s steps(25) infinite; }
-    .o1  { opacity: 0; animation: out1  12s ease infinite; }
-    .o2  { opacity: 0; animation: out2  12s ease infinite; }
-    .o3  { opacity: 0; animation: out3  12s ease infinite; }
-    .o4  { opacity: 0; animation: out4  12s ease infinite; }
-    .o5  { opacity: 0; animation: out5  12s ease infinite; }
-    .o6  { opacity: 0; animation: out6  12s ease infinite; }
-    .o7  { opacity: 0; animation: out7  12s ease infinite; }
-    .o8  { opacity: 0; animation: out8  12s ease infinite; }
-    .o9  { opacity: 0; animation: out9  12s ease infinite; }
-    .o10 { opacity: 0; animation: out10 12s ease infinite; }
-    .o11 { opacity: 0; animation: out11 12s ease infinite; }
-    .p2  { opacity: 0; animation: prompt2 12s ease infinite; }
+    .cmd { overflow: hidden; white-space: nowrap; display: inline-block; animation: cmd 24s steps(25) infinite; }
+    .o1  { opacity: 0; animation: out1  24s ease infinite; }
+    .o2  { opacity: 0; animation: out2  24s ease infinite; }
+    .o3  { opacity: 0; animation: out3  24s ease infinite; }
+    .o4  { opacity: 0; animation: out4  24s ease infinite; }
+    .o5  { opacity: 0; animation: out5  24s ease infinite; }
+    .o6  { opacity: 0; animation: out6  24s ease infinite; }
+    .o7  { opacity: 0; animation: out7  24s ease infinite; }
+    .o8  { opacity: 0; animation: out8  24s ease infinite; }
+    .o9  { opacity: 0; animation: out9  24s ease infinite; }
+    .o10 { opacity: 0; animation: out10 24s ease infinite; }
+    .o11 { opacity: 0; animation: out11 24s ease infinite; }
+    .p2  { opacity: 0; animation: prompt2 24s ease infinite; }
   </style>
 
   <!-- Window -->
