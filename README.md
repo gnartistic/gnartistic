@@ -70,7 +70,7 @@
 </details>
 
 <details>
-<summary><img src="https://cdn.simpleicons.org/amazonwebservices/FF9900" width="18" align="center"/>&nbsp; <b>Services & Infra</b></summary>
+<summary><img src="https://cdn.simpleicons.org/icloud/7aa2f7" width="18" align="center"/>&nbsp; <b>Services & Infra</b></summary>
 <br/>
 
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
