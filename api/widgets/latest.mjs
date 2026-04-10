@@ -1,7 +1,7 @@
-// Latest commit widget — shows the most recent public push by the user.
+// Latest commit widget — shows the most recent public push.
 
 import { client } from "../_lib/github.mjs";
-import { card, sendSvg, sendError, theme, escape } from "../_lib/card.mjs";
+import { sendSvg, sendError, theme, escape } from "../_lib/card.mjs";
 
 const USERNAME = "gnartistic";
 
@@ -16,18 +16,27 @@ export default async function handler(req, res) {
     const push = events.data.find((e) => e.type === "PushEvent");
     if (!push) return sendError(res, "no recent pushes");
 
-    const repo = push.repo.name;
+    const repoFull = push.repo.name;
+    const repoName = repoFull.split("/")[1] || repoFull;
     const commit = push.payload.commits?.[push.payload.commits.length - 1];
-    const message = (commit?.message || "").split("\n")[0].slice(0, 60);
+    const message = (commit?.message || "").split("\n")[0].slice(0, 40);
     const when = timeAgo(new Date(push.created_at));
 
-    const body = `
-      <text x="200" y="160" font-family="-apple-system, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="${theme.text}" text-anchor="middle">${escape(repo)}</text>
-      <text x="200" y="200" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="${theme.subtext}" text-anchor="middle">"${escape(message)}"</text>
-      <text x="200" y="250" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" fill="${theme.muted}" text-anchor="middle">${when}</text>
-    `;
+    const svg = `
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="${theme.bg1}"/>
+      <stop offset="100%" stop-color="${theme.bg2}"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="16" fill="url(#bg)"/>
+  <text x="200" y="60" font-family="-apple-system, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="${theme.accent}" text-anchor="middle">Latest Commit</text>
+  <text x="200" y="170" font-family="-apple-system, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="${theme.text}" text-anchor="middle">${escape(repoName)}</text>
+  <text x="200" y="220" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="${theme.subtext}" text-anchor="middle">"${escape(message)}"</text>
+  <text x="200" y="280" font-family="-apple-system, Segoe UI, sans-serif" font-size="18" fill="${theme.muted}" text-anchor="middle">${when}</text>
+</svg>`.trim();
 
-    const svg = card({ title: "🚀 Latest commit", body });
     sendSvg(res, svg, { maxAge: 600 });
   } catch (err) {
     sendError(res, err.message || "failed");
