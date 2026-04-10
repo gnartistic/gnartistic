@@ -167,7 +167,6 @@
 <div align="center">
 
 ![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
-![Latest commit](https://gnartistic.vercel.app/api/widgets/latest)
 ![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
 
