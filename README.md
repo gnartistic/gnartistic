@@ -114,22 +114,18 @@
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="28"/> GitHub Stats
 
 <div align="center">
-
-![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
-![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
-![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
+<table>
+<tr>
+<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/lines"/></td>
+<td align="center"><img src="https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true"/></td>
+</tr>
+<tr>
+<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/languages"/></td>
+<td align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true"/></td>
+</tr>
+</table>
 
 <br/>
-
-<!-- ACTIVITY GRAPH -->
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true)
-
-</div>
-
-<br/>
-
-<!-- SNAKE CONTRIBUTION -->
-<div align="center">
 
 ![Snake animation](https://raw.githubusercontent.com/gnartistic/gnartistic/output/github-snake-dark.svg)
 
