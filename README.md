@@ -166,7 +166,11 @@
 
 <div align="center">
 
-<img src="https://gnartistic.vercel.app/api/widgets/lines" width="32%"/> <img src="https://gnartistic.vercel.app/api/widgets/latest" width="32%"/> <img src="https://gnartistic.vercel.app/api/widgets/languages" width="32%"/>
+<table><tr>
+<td><img src="https://gnartistic.vercel.app/api/widgets/lines" width="300"/></td>
+<td><img src="https://gnartistic.vercel.app/api/widgets/latest" width="300"/></td>
+<td><img src="https://gnartistic.vercel.app/api/widgets/languages" width="300"/></td>
+</tr></table>
 ![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
 
 <br/>
