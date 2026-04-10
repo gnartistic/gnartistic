@@ -116,11 +116,11 @@
 <div align="center">
 <table>
 <tr>
-<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/lines"/></td>
+<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/lines?v=2"/></td>
 <td align="center"><img src="https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true"/></td>
 </tr>
 <tr>
-<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/languages"/></td>
+<td align="center"><img src="https://gnartistic.vercel.app/api/widgets/languages?v=2"/></td>
 <td align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true"/></td>
 </tr>
 </table>
