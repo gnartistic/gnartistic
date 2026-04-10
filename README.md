@@ -114,9 +114,11 @@
 ### <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="28"/> GitHub Stats
 
 <div align="center">
-<img src="https://gnartistic.vercel.app/api/widgets/lines?v=4" width="49%"/> <img src="https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true" width="49%"/>
+<img src="https://gnartistic.vercel.app/api/widgets/lines?v=4" width="49%"/> <img src="https://gnartistic.vercel.app/api/widgets/languages?v=4" width="49%"/>
 
-<img src="https://gnartistic.vercel.app/api/widgets/languages?v=4" width="49%"/> <img src="https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true" width="49%"/>
+![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gnartistic&theme=tokyo-night&hide_border=true&area=true)
 
 <br/>
 
