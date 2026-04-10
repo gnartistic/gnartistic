@@ -5,6 +5,15 @@ import { Octokit } from "@octokit/rest";
 import { writeFile, mkdir } from "node:fs/promises";
 
 const USERNAME = "gnartistic";
+// Extra identities to match (lowercase). Add any old git names/emails here.
+const ALIASES = new Set(
+  [
+    "gnartistic",
+    "charles houston",
+    "charleshouston",
+    "charlie houston",
+  ].map((s) => s.toLowerCase())
+);
 const octokit = new Octokit({ auth: process.env.GH_TOKEN });
 
 async function getStats(owner, repo, retries = 4) {
@@ -39,19 +48,27 @@ for (let i = 0; i < nonForks.length; i++) {
   const label = `[${i + 1}/${nonForks.length}] ${repo.full_name}`;
   try {
     const stats = await getStats(repo.owner.login, repo.name);
-    const mine = stats.find((s) => s?.author?.login === USERNAME);
-    if (mine) {
+    const matches = stats.filter((s) => {
+      const login = s?.author?.login?.toLowerCase();
+      const name = s?.author?.name?.toLowerCase();
+      return (login && ALIASES.has(login)) || (name && ALIASES.has(name));
+    });
+
+    if (matches.length > 0) {
       let a = 0, d = 0;
-      for (const week of mine.weeks) {
-        a += week.a || 0;
-        d += week.d || 0;
+      for (const m of matches) {
+        for (const week of m.weeks) {
+          a += week.a || 0;
+          d += week.d || 0;
+        }
       }
       additions += a;
       deletions += d;
       countedRepos++;
       console.log(`${label}  +${a} -${d}`);
     } else {
-      console.log(`${label}  (no contributions)`);
+      const authors = stats.map((s) => s?.author?.login || s?.author?.name || "null").join(", ");
+      console.log(`${label}  (no match · authors: ${authors || "none"})`);
     }
   } catch (err) {
     console.warn(`${label}  skip: ${err.message}`);
