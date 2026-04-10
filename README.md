@@ -25,7 +25,13 @@
 
 <img src="https://gnartistic.vercel.app/api/widgets/terminal" width="100%"/>
 
-> *"Always down to chat about web dev, design, or art — drop a line anytime."*
+<br/>
+
+<a href="https://calendly.com/gn4rtistic/30min">
+  <img src="https://img.shields.io/badge/Let's_talk_about_web_dev,_design,_or_art-Book_a_chat-bb9af7?style=for-the-badge&logo=calendly&logoColor=white"/>
+</a>
+
+<br/>
 
 </div>
 
