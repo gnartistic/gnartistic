@@ -166,11 +166,9 @@
 
 <div align="center">
 
-<table><tr>
-<td width="33%"><img src="https://gnartistic.vercel.app/api/widgets/lines" width="300" height="300"/></td>
-<td width="33%"><img src="https://gnartistic.vercel.app/api/widgets/latest" width="300" height="300"/></td>
-<td width="33%"><img src="https://gnartistic.vercel.app/api/widgets/languages" width="300" height="300"/></td>
-</tr></table>
+![Lines of code](https://gnartistic.vercel.app/api/widgets/lines)
+![Latest commit](https://gnartistic.vercel.app/api/widgets/latest)
+![Top languages](https://gnartistic.vercel.app/api/widgets/languages)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=gnartistic&theme=tokyonight&hide_border=true)
 
 <br/>

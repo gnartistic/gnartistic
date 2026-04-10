@@ -1,5 +1,3 @@
-// Top languages widget — aggregates byte counts across all your repos.
-
 import { client } from "../_lib/github.mjs";
 import { sendSvg, sendError, theme, escape } from "../_lib/card.mjs";
 
@@ -49,26 +47,26 @@ export default async function handler(req, res) {
     let bars = "";
     sorted.forEach(([lang, bytes], i) => {
       const pct = (bytes / total) * 100;
-      const y = 110 + i * 55;
+      const y = 75 + i * 44;
       const color = COLORS[lang] || theme.subtext;
       bars += `
-        <text x="32" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="18" font-weight="600" fill="${theme.text}">${escape(lang)}</text>
-        <text x="368" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="16" fill="${theme.muted}" text-anchor="end">${pct.toFixed(1)}%</text>
-        <rect x="32" y="${y + 10}" width="336" height="10" rx="5" fill="${theme.bg1}"/>
-        <rect x="32" y="${y + 10}" width="${(pct / 100) * 336}" height="10" rx="5" fill="${color}"/>
+        <text x="30" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="16" font-weight="600" fill="${theme.text}">${escape(lang)}</text>
+        <text x="770" y="${y}" font-family="-apple-system, Segoe UI, sans-serif" font-size="14" fill="${theme.muted}" text-anchor="end">${pct.toFixed(1)}%</text>
+        <rect x="30" y="${y + 8}" width="740" height="8" rx="4" fill="${theme.bg1}"/>
+        <rect x="30" y="${y + 8}" width="${(pct / 100) * 740}" height="8" rx="4" fill="${color}"/>
       `;
     });
 
     const svg = `
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="${75 + sorted.length * 44 + 20}" viewBox="0 0 800 ${75 + sorted.length * 44 + 20}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="${theme.bg1}"/>
       <stop offset="100%" stop-color="${theme.bg2}"/>
     </linearGradient>
   </defs>
-  <rect width="400" height="400" rx="16" fill="url(#bg)"/>
-  <text x="200" y="60" font-family="-apple-system, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="${theme.accent}" text-anchor="middle">Top Languages</text>
+  <rect width="800" height="${75 + sorted.length * 44 + 20}" rx="12" fill="url(#bg)"/>
+  <text x="30" y="42" font-family="-apple-system, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="${theme.accent}">Top Languages</text>
   ${bars}
 </svg>`.trim();
 
