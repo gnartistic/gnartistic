@@ -7,21 +7,27 @@ import { card, sendSvg, sendError, theme } from "../_lib/card.mjs";
 
 const USERNAME = "gnartistic";
 
+export const config = { maxDuration: 60 };
+
 export default async function handler(req, res) {
   try {
     const octokit = client();
 
-    // Grab all repos the user owns (public + private if PAT has repo scope).
-    const repos = await octokit.paginate(octokit.repos.listForAuthenticatedUser, {
+    // Grab the user's repos (public + private if PAT has repo scope), sorted
+    // by size so the biggest contributors are counted first. Cap at 25.
+    const all = await octokit.paginate(octokit.repos.listForAuthenticatedUser, {
       per_page: 100,
       affiliation: "owner",
-    }).catch(async () => {
-      // Fall back to public-only listing if no PAT scope.
-      return octokit.paginate(octokit.repos.listForUser, {
+    }).catch(() =>
+      octokit.paginate(octokit.repos.listForUser, {
         username: USERNAME,
         per_page: 100,
-      });
-    });
+      })
+    );
+    const repos = all
+      .filter((r) => !r.fork)
+      .sort((a, b) => (b.size || 0) - (a.size || 0))
+      .slice(0, 25);
 
     let additions = 0;
     let deletions = 0;
