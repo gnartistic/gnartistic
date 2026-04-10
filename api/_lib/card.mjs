@@ -3,7 +3,7 @@
 export const theme = {
   bg1: "#1a1b27",
   bg2: "#24283b",
-  accent: "#bb9af7",
+  accent: "#7aa2f7",
   text: "#c0caf5",
   subtext: "#7aa2f7",
   muted: "#565f89",

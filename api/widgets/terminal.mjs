@@ -54,7 +54,7 @@ export default function handler(req, res) {
   <g font-family="ui-monospace, Menlo, monospace" font-size="16">
 
     <!-- Command -->
-    <text x="28" y="74" fill="#bb9af7">~</text>
+    <text x="28" y="74" fill="#7aa2f7">~</text>
     <text x="46" y="74" fill="#7aa2f7"> $ </text>
     <g class="cmd">
       <text x="72" y="74" fill="#c0caf5">npx charles --about</text>
@@ -63,19 +63,19 @@ export default function handler(req, res) {
     <!-- JSON output -->
     <text class="o1"  x="28"  y="108" fill="#565f89">{</text>
 
-    <text class="o2"  x="48"  y="138" fill="#bb9af7">pronouns:</text>
+    <text class="o2"  x="48"  y="138" fill="#7aa2f7">pronouns:</text>
     <text class="o2"  x="220" y="138" fill="#9ece6a">"he/him"</text>
 
-    <text class="o3"  x="48"  y="168" fill="#bb9af7">role:</text>
+    <text class="o3"  x="48"  y="168" fill="#7aa2f7">role:</text>
     <text class="o3"  x="220" y="168" fill="#9ece6a">"CTO @ Shenhav"</text>
 
-    <text class="o4"  x="48"  y="198" fill="#bb9af7">focus:</text>
+    <text class="o4"  x="48"  y="198" fill="#7aa2f7">focus:</text>
     <text class="o4"  x="220" y="198" fill="#9ece6a">"AI agents &amp; LLM tooling"</text>
 
-    <text class="o5"  x="48"  y="228" fill="#bb9af7">stack:</text>
+    <text class="o5"  x="48"  y="228" fill="#7aa2f7">stack:</text>
     <text class="o5"  x="220" y="228" fill="#7aa2f7">["TypeScript", "Next.js", "tRPC", "Prisma", "Tailwind"]</text>
 
-    <text class="o6"  x="48"  y="258" fill="#bb9af7">offTheClock:</text>
+    <text class="o6"  x="48"  y="258" fill="#7aa2f7">offTheClock:</text>
     <text class="o6"  x="220" y="258" fill="#565f89">[</text>
 
     <text class="o7"  x="240" y="288" fill="#ff9e64">"hiking with no elevation gain"</text>
@@ -84,16 +84,16 @@ export default function handler(req, res) {
     <text class="o10" x="240" y="378" fill="#ff9e64">"riding the rails at a music festival"</text>
     <text class="o10" x="220" y="408" fill="#565f89">]</text>
 
-    <text class="o11" x="48"  y="438" fill="#bb9af7">funFact:</text>
+    <text class="o11" x="48"  y="438" fill="#7aa2f7">funFact:</text>
     <text class="o11" x="220" y="438" fill="#9ece6a">"fully ambidextrous ✍️"</text>
 
     <text class="o11" x="28"  y="468" fill="#565f89">}</text>
 
     <!-- Second prompt -->
     <g class="p2">
-      <text x="28" y="500" fill="#bb9af7">~</text>
+      <text x="28" y="500" fill="#7aa2f7">~</text>
       <text x="46" y="500" fill="#7aa2f7"> $ </text>
-      <rect x="72" y="486" width="10" height="18" rx="1" fill="#bb9af7" class="cursor"/>
+      <rect x="72" y="486" width="10" height="18" rx="1" fill="#7aa2f7" class="cursor"/>
     </g>
   </g>
 </svg>`.trim();
