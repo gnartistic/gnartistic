@@ -5,13 +5,13 @@ import { sendSvg } from "../_lib/card.mjs";
 
 export default function handler(req, res) {
   const svg = `
-<svg width="420" height="440" viewBox="0 0 420 440" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    @keyframes cmd   { 0%, 4%  { width: 0 } 8%, 100%  { width: 240px } }
+    @keyframes cmd   { 0%, 4%  { width: 0 } 8%, 100%  { width: 320px } }
     @keyframes out1  { 0%, 10% { opacity: 0 } 12%, 100% { opacity: 1 } }
     @keyframes out2  { 0%, 16% { opacity: 0 } 18%, 100% { opacity: 1 } }
     @keyframes out3  { 0%, 22% { opacity: 0 } 24%, 100% { opacity: 1 } }
@@ -41,52 +41,59 @@ export default function handler(req, res) {
   </style>
 
   <!-- Window -->
-  <rect width="420" height="440" rx="12" fill="#1a1b27"/>
+  <rect width="800" height="520" rx="14" fill="#1a1b27"/>
 
   <!-- Title bar -->
-  <rect width="420" height="32" rx="12" fill="#24283b"/>
-  <rect y="20" width="420" height="12" fill="#24283b"/>
-  <circle cx="18" cy="16" r="6" fill="#ff5f56"/>
-  <circle cx="38" cy="16" r="6" fill="#ffbd2e"/>
-  <circle cx="58" cy="16" r="6" fill="#27c93f"/>
-  <text x="210" y="20" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#565f89" text-anchor="middle">charles@shenhav ~ zsh</text>
+  <rect width="800" height="40" rx="14" fill="#24283b"/>
+  <rect y="26" width="800" height="14" fill="#24283b"/>
+  <circle cx="24" cy="20" r="7" fill="#ff5f56"/>
+  <circle cx="48" cy="20" r="7" fill="#ffbd2e"/>
+  <circle cx="72" cy="20" r="7" fill="#27c93f"/>
+  <text x="400" y="25" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#565f89" text-anchor="middle">charles@shenhav ~ zsh</text>
 
-  <g font-family="ui-monospace, Menlo, monospace" font-size="12">
+  <g font-family="ui-monospace, Menlo, monospace" font-size="16">
 
     <!-- Command -->
-    <text x="16" y="58" fill="#bb9af7">~</text>
-    <text x="28" y="58" fill="#7aa2f7"> $ </text>
+    <text x="28" y="74" fill="#bb9af7">~</text>
+    <text x="46" y="74" fill="#7aa2f7"> $ </text>
     <g class="cmd">
-      <text x="48" y="58" fill="#c0caf5">npx charles --about</text>
+      <text x="72" y="74" fill="#c0caf5">npx charles --about</text>
     </g>
 
     <!-- JSON output -->
-    <text class="o1"  x="16" y="84"  fill="#565f89">{</text>
-    <text class="o2"  x="28" y="106" fill="#bb9af7">  pronouns:</text>
-    <text class="o2"  x="138" y="106" fill="#9ece6a">    "he/him"</text>
-    <text class="o3"  x="28" y="128" fill="#bb9af7">  role:</text>
-    <text class="o3"  x="138" y="128" fill="#9ece6a">        "CTO @ Shenhav"</text>
-    <text class="o4"  x="28" y="150" fill="#bb9af7">  focus:</text>
-    <text class="o4"  x="138" y="150" fill="#9ece6a">       "AI agents &amp; LLM tooling"</text>
-    <text class="o5"  x="28" y="172" fill="#bb9af7">  stack:</text>
-    <text class="o5"  x="138" y="172" fill="#7aa2f7">       ["TS", "Next.js", "tRPC",</text>
-    <text class="o5"  x="138" y="192" fill="#7aa2f7">        "Prisma", "Tailwind"]</text>
-    <text class="o6"  x="28" y="214" fill="#bb9af7">  offTheClock:</text>
-    <text class="o6"  x="138" y="214" fill="#565f89"> [</text>
-    <text class="o7"  x="148" y="236" fill="#ff9e64">"hiking (no elevation gain)"</text>
-    <text class="o8"  x="148" y="258" fill="#ff9e64">"basement jam sessions"</text>
-    <text class="o9"  x="148" y="280" fill="#ff9e64">"creating w/ my hands"</text>
-    <text class="o10" x="148" y="302" fill="#ff9e64">"riding rails @ festivals"</text>
-    <text class="o10" x="138" y="322" fill="#565f89">]</text>
-    <text class="o11" x="28" y="344" fill="#bb9af7">  funFact:</text>
-    <text class="o11" x="138" y="344" fill="#9ece6a">     "fully ambidextrous ✍️"</text>
-    <text class="o11" x="16" y="366" fill="#565f89">}</text>
+    <text class="o1"  x="28"  y="108" fill="#565f89">{</text>
+
+    <text class="o2"  x="48"  y="138" fill="#bb9af7">pronouns:</text>
+    <text class="o2"  x="220" y="138" fill="#9ece6a">"he/him"</text>
+
+    <text class="o3"  x="48"  y="168" fill="#bb9af7">role:</text>
+    <text class="o3"  x="220" y="168" fill="#9ece6a">"CTO @ Shenhav"</text>
+
+    <text class="o4"  x="48"  y="198" fill="#bb9af7">focus:</text>
+    <text class="o4"  x="220" y="198" fill="#9ece6a">"AI agents &amp; LLM tooling"</text>
+
+    <text class="o5"  x="48"  y="228" fill="#bb9af7">stack:</text>
+    <text class="o5"  x="220" y="228" fill="#7aa2f7">["TypeScript", "Next.js", "tRPC", "Prisma", "Tailwind"]</text>
+
+    <text class="o6"  x="48"  y="258" fill="#bb9af7">offTheClock:</text>
+    <text class="o6"  x="220" y="258" fill="#565f89">[</text>
+
+    <text class="o7"  x="240" y="288" fill="#ff9e64">"hiking with no elevation gain"</text>
+    <text class="o8"  x="240" y="318" fill="#ff9e64">"jamming in basements with my friends"</text>
+    <text class="o9"  x="240" y="348" fill="#ff9e64">"creating things with my hands"</text>
+    <text class="o10" x="240" y="378" fill="#ff9e64">"riding the rails at a music festival"</text>
+    <text class="o10" x="220" y="408" fill="#565f89">]</text>
+
+    <text class="o11" x="48"  y="438" fill="#bb9af7">funFact:</text>
+    <text class="o11" x="220" y="438" fill="#9ece6a">"fully ambidextrous ✍️"</text>
+
+    <text class="o11" x="28"  y="468" fill="#565f89">}</text>
 
     <!-- Second prompt -->
     <g class="p2">
-      <text x="16" y="396" fill="#bb9af7">~</text>
-      <text x="28" y="396" fill="#7aa2f7"> $ </text>
-      <rect x="48" y="383" width="8" height="15" rx="1" fill="#bb9af7" class="cursor"/>
+      <text x="28" y="500" fill="#bb9af7">~</text>
+      <text x="46" y="500" fill="#7aa2f7"> $ </text>
+      <rect x="72" y="486" width="10" height="18" rx="1" fill="#bb9af7" class="cursor"/>
     </g>
   </g>
 </svg>`.trim();
