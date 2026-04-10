@@ -1,0 +1,30 @@
+name: Compute lines of code
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install @octokit/rest
+      - name: Compute totals
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: node scripts/compute-lines.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/lines.json
+          git diff --cached --quiet || git commit -m "chore: update lines.json"
+          git push
